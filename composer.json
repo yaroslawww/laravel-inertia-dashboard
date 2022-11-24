@@ -1,0 +1,56 @@
+{
+    "name": "yaroslawww/laravel-inertia-dashboard",
+    "description": "Laravel inertia dashboard development kit for quicker MVP ot live projects.",
+    "keywords": [
+        "dashboard"
+    ],
+    "homepage": "https://github.com/yaroslawww/laravel-inertia-dashboard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Georgitsa",
+            "email": "yaroslav.georgitsa@gmail.com",
+            "homepage": "https://github.com/yaroslawww",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^9.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.13",
+        "orchestra/testbench": "^7.11",
+        "phpunit/phpunit": "^9.5",
+        "psalm/plugin-laravel": "^2.0",
+        "vimeo/psalm": "^4.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "InertiaDashboardKit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "InertiaDashboardKit\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "InertiaDashboardKit\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
