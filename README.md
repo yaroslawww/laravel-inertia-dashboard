@@ -7,7 +7,7 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/yaroslawww/laravel-inertia-dashboard/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/yaroslawww/laravel-inertia-dashboard/?branch=main)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yaroslawww/laravel-inertia-dashboard/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/yaroslawww/laravel-inertia-dashboard/?branch=main)
 
-Package what allow download data to local db from Ipro api.
+"Laravel inertia dashboard development kit for quicker MVP ot live projects.
 
 ## Installation
 
